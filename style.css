@@ -221,8 +221,8 @@ a:hover {
 }
 
 .logo_2 {
-  width: 55%;
-  height: fit-content;
+  width: 900px;
+  height: 270px;
 }
 
 /**************************About************************************/
@@ -364,6 +364,10 @@ textarea:hover {
 }
 /******************* Mobile ********************/
 @media (max-width: 62em) {
+  .logo_2 {
+    width: 230px;
+    height: 64px;
+  }
   form {
     margin-top: 1em;
     display: grid;
